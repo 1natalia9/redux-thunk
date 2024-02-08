@@ -1,11 +1,11 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom'
 import ProductsPage from './components/pages/ProductsPage';
 import ProductDescriptionPage from './components/pages/ProductDescriptionPage';
 import Layout from './components/Layout';
 import CartPage from './components/pages/CartPage';
 import CategoriesPage from './components/pages/CategoriesPage';
 import ProductsByCategoryPage from './components/pages/ProductsByCategoryPage';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -25,4 +25,3 @@ function App() {
 }
 
 export default App;
-//jj
