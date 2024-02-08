@@ -13,7 +13,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<Layout />}>
-        <Route path='/' element={<ProductsPage />} />
+        <Route path='/redux-thunk' element={<ProductsPage />} />
         <Route path='/product/:id' element={<ProductDescriptionPage />} />
         <Route path='/cart' element={<CartPage />} />
         <Route path='/categories' element={<CategoriesPage />} />
